@@ -8,6 +8,7 @@ namespace CurrentsumOfArrayElements
         {
             Console.Write("Please enter the length of the array:");
             string input = Console.ReadLine();
+
             if(int.TryParse(input, out int length))
             {
                 int[] nums = new int[length];
